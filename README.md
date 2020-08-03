@@ -15,7 +15,7 @@ directly mapped.  Long story short PWMServo had less interupts.  You will also n
 at Teensy where one can program addressable LEDs by way of the Teensy mcu direct memory access.  This allows us to run simulataneously the servo and the ws2812's without cross-talk. 
 Finally, as with any multithreading code of this type, there should be no delay() calls in the loop. Creative uses of millis() or some timing library strategy are required.  
 
-I would like to thank Fordiman and members of the PJRC.Com forum for volunteering to help me complete this project at critical points where I was stuck.  Your cosmic interdependent energy is 
+I would like to thank Fordiman and members of the PJRC.com forum for volunteering to help me complete this project at critical points where I was stuck.  Your cosmic interdependent energy is 
 its own reward.  
 
 EL, July 2020
