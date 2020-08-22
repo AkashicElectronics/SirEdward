@@ -3,8 +3,8 @@ Sir Edward is an animatronic skull who lives in Long Beach, CA
 
 The functionality is as follows:
 A person in passing triggers the sonar proximity sensor.
-The Audio, Servo, and Lighting are all activated and perform, in synchrony, an animitronics sequence.
-After the audio file is played the power to the servo motor is cut (by way of a mosfet) and the circuit is on standby until the next trigger of the proximity sensor.
+The audio, servo, and lighting are all activated and perform, in synchrony, an animitronics sequence.
+After the audio file is played, the power to the servo motor is cut (by way of a mosfet) and the circuit is on standby until the next trigger of the proximity sensor.
 
 This project is controlled by a Teensy 3.5 mcu.  I made a custom PCB for it.  The code points to which pins are connected to which hardware.  
 I am uploading code starting with revB of the Master Code, since this iteration of the code represents a sufficiently operational model of what was originally intended for creation.
